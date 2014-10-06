@@ -2,10 +2,10 @@ if [[ "$XDG_VTNR" == 1 && -z "$DISPLAY" && -z "$TMUX" ]]; then
     exec startx
 fi
 
-#~/bin/tmx
-#if [[ -z "$TMUX" ]]; then
-#    exit
-#fi
+~/bin/tmx
+if [[ -z "$TMUX" ]]; then
+    exit
+fi
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
