@@ -16,7 +16,6 @@ unset TMUX
 # autostart, all hosts
 redshift -l 0:0 &
 xsetroot -cursor_name left_ptr &
-xmodmap ~/.Xmodmap &
 compton --config ~/.compton.conf &
 dunst &
 unclutter -idle 3 &
@@ -53,4 +52,4 @@ else
     start-pulseaudio-x11 &
 fi
 
-exec herbstluftwm --locked
+exec i3
