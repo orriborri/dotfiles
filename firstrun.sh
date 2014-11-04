@@ -18,22 +18,14 @@ set -e # quit on failure
 
 # cd to root of git repo
 cd "$(dirname $0)"
-CWD=$(pwd)
 
 ./update.sh
 
 # vim undo files will be stored here
 mkdir -p ~/.vim/undo
 
-cd .vim/bundle/YouCompleteMe
-git submodule update --init --recursive
-./install.sh
-# TODO: this is dumb to run again
-cd $CWD
-
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting
 #git clone https://github.com/zsh-users/zsh-history-substring-search
 #git clone https://github.com/tarruda/zsh-autosuggestions ~/.zsh-autosuggestions
 
 ./symlink.sh -y
-./compile.sh

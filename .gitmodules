@@ -10,9 +10,6 @@
 [submodule ".vim/bundle/nerdcommenter.git"]
 	path = .vim/bundle/nerdcommenter.git
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule ".vim/bundle/syntastic.git"]
-	path = .vim/bundle/syntastic.git
-	url = git://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
@@ -55,9 +52,6 @@
 [submodule ".vim/bundle/vim-easymotion.git"]
 	path = .vim/bundle/vim-easymotion.git
 	url = https://github.com/Lokaltog/vim-easymotion
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
 [submodule ".vim/bundle/base16"]
 	path = .vim/bundle/base16
 	url = git://github.com/chriskempson/base16-vim.git
@@ -94,3 +88,6 @@
 [submodule "src/z"]
 	path = src/z
 	url = https://github.com/rupa/z
+[submodule ".vim/bundle/neocomplete.git"]
+	path = .vim/bundle/neocomplete.git
+	url = https://github.com/Shougo/neocomplete.vim
