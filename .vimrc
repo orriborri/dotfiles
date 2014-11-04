@@ -8,6 +8,8 @@ execute pathogen#infect()
 " powerline config
 set laststatus=2
 set noshowmode
+"neocomplcache
+let g:neocomplcache_enable_at_startup = 1
 
 " ctrlp config
 let g:ctrlp_max_height = 30
