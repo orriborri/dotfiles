@@ -1,14 +1,10 @@
 #!/bin/zsh
 
 # recursively symlink all files from paths in this array
-<<<<<<< HEAD
-FILES=( bin src .apvlvrc .compton.conf .config .colors .dir_colors .gconf .mozilla .synergy.conf .tmux.servy .theme.cfg .urlview .vimrc .vim/autoload/pathogen.vim .xinitrc .Xmodmap .zshrc .zprofile .zpreztorc )
-=======
-FILES=( bin src .apvlvrc .compton.conf .config .colors .conkyrc .dir_colors .gconf .mozilla .synergy.conf .tmux.conf .tmux.servy .theme.cfg .urlview .vimrc .vim/autoload/pathogen.vim .xinitrc .Xdefaults .Xmodmap .zshrc .zprofile .zpreztorc )
->>>>>>> 75c92d4b925e6494c9fd644b7dc14ef4cddbd86e
+FILES=( bin src .apvlvrc .compton.conf .config .colors .conkyrc .dir_colors .gconf .mozilla .synergy.conf .tmux.conf .tmux.servy .theme.cfg .urlview .vimrc .vim/autoload/pathogen.vim .xinitrc .Xdefaults .Xmodmap .zshrc .zprofile .zpreztorc)
 
 # symlink these directories
-DIRS=( .vim/bundle .vim/colors .vim/ftdetect .zprezto )
+DIRS=( .vim/bundle .vim/colors .vim/ftdetect .zprezto .i3 )
 
 # cd to root of git repo
 cd "$(dirname $0)"
