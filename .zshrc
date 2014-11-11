@@ -59,7 +59,6 @@ fi
 source $HOME/.zprezto/init.zsh
 source ~/src/z/z.sh
 
-alias sr="ssh rasse@fruitiex.org"
 alias vmx="startx -- -config xorg.vm"
 alias l="ll"
 alias netmenu="sudo wifi-menu -o"
@@ -69,10 +68,8 @@ alias slp="systemctl suspend"
 alias ds="dirs -v"
 alias hc="herbstclient"
 alias startx="ssh-agent startx"
-alias n="~/dev/node/nodifier/clients/cli/cli.js"
 alias nr="n r"
 alias nu="n u"
-alias t="~/dev/node/nodifier/clients/todo/todo.js"
 alias v="~/src/v/v"
 alias xf="DISPLAY=:10"
 alias sctl="systemctl"
@@ -92,7 +89,6 @@ unset SSH_ASKPASS
 stty ixany
 stty ixoff -ixon
 
-setopt DVORAK
 
 # use the vi navigation keys (hjkl) besides cursor keys in menu completion
 #bindkey -M menuselect 'h' vi-backward-char        # left

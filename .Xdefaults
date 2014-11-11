@@ -6,6 +6,7 @@ URxvt.iso14755_52: False
 
 ! resize fonts
 URxvt.perl-ext-common: font-size
+URxvt.font-size: 12 
 URxvt.font-size.step: 2
 URxvt.keysym.C-Up:      perl:font-size:increase
 URxvt.keysym.C-Down:    perl:font-size:decrease
@@ -50,5 +51,5 @@ urxvt*depth: 32
 
 !xcursor
 Xcursor.theme: Human
-Xcursor.size: 48
+Xcursor.size: 228
 
