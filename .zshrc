@@ -138,3 +138,5 @@ compinit
 # End of lines added by compinstall
 
 ulimit -c unlimited
+
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
