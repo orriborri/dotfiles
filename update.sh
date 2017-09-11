@@ -16,5 +16,4 @@ git submodule foreach --recursive git pull origin master
 
 xrdb ~/.Xdefaults
 source ~/.zshrc
-herbstclient reload
 feh --bg-tile ~/dotfiles/.compiled/bg.png
